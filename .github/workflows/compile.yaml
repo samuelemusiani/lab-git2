@@ -17,3 +17,10 @@ jobs:
 
       - name: Compile the file
         run: g++ file.cpp
+
+  omar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        run: "echo 'test'"
+    
